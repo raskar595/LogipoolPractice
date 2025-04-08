@@ -17,6 +17,8 @@ public class EmployeeController {
 	@Autowired
 	EmployeeServiceImpl empSer;
 	
+	//To interpolate the value
+	
 	@Value("${file.path}")
 	String path;	
 	
